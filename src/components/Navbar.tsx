@@ -94,15 +94,15 @@ export default function Navbar({ activeTab, setActiveTab, chapterCount, hiwarCou
             </button>
 
             <button
-              onClick={() => setActiveTab('stories')}
+              onClick={() => setActiveTab('irab')}
               className={`flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-bold uppercase tracking-wider transition-all duration-300 ${
-                activeTab === 'stories'
+                activeTab === 'irab'
                   ? 'bg-emerald-700 text-white shadow-md border border-emerald-500/50'
                   : 'bg-slate-900/60 hover:bg-slate-800 text-slate-300 hover:text-white border border-slate-800'
               }`}
             >
               <Sparkles className="w-3.5 h-3.5 text-amber-400" />
-              <span>100 Kisah</span>
+              <span>I'rab Nahwu</span>
             </button>
 
             <button

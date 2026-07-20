@@ -12,7 +12,7 @@ import HiwarDetail from './components/HiwarDetail';
 import HiwarForm from './components/HiwarForm';
 import BiographyView from './components/BiographyView';
 import VocabularyView from './components/VocabularyView';
-import StoriesView from './components/StoriesView';
+import IrabView from './components/IrabView';
 
 
 // Icons
@@ -814,8 +814,8 @@ export default function App() {
           />
         )}
 
-        {/* ================= TAB 5: 100 STORIES ================= */}
-        {activeTab === 'stories' && <StoriesView />}
+        {/* ================= TAB 5: I'RAB NAHWU ================= */}
+        {activeTab === 'irab' && <IrabView />}
 
       </main>
 
