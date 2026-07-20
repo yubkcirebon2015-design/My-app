@@ -1,0 +1,6 @@
+{
+  "name": "Nahwu Interaktif SMP IT UBK",
+  "description": "Aplikasi Nahwu Interaktif Berjenjang Kelas 7-9 SMP IT Umar bin Al Khattab Cirebon, disusun oleh Jundi Abdul Syahid, S.Pd. (Orang Dalam Genetik Jawa).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
